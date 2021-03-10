@@ -55,6 +55,8 @@ legend{
   flex-basis: 200px;
 } */
 
+@import "./resets.css";
+
 *{
   box-sizing: border-box;
 }
@@ -68,11 +70,13 @@ footer{
 }
 article{
   max-width: 1200px;
+  margin: 0 auto;
   text-justify: newspaper;
   font-size: 1.2em;
   line-height: 1.5;
 }
 
 p{
-  column-count: 2;
+  column-width: 280px;
+  column-rule: 2px solid black;
 }
